@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MeetingModule"
-  s.version      = "1.0.0"
+  s.version      = "1.0.2"
   s.summary      = "MeetingModule."
 
   s.description  = <<-DESC
