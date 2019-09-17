@@ -16,7 +16,6 @@
 		A52C2F8D232F857E00B3658E /* MeetingModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52C2F8C232F857E00B3658E /* MeetingModuleTests.swift */; };
 		A52C2F98232F857E00B3658E /* MeetingModuleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52C2F97232F857E00B3658E /* MeetingModuleUITests.swift */; };
 		A52C2FA8232F89BD00B3658E /* MeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52C2FA6232F89BD00B3658E /* MeetingViewController.swift */; };
-		A52C2FA9232F89BD00B3658E /* MeetingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A52C2FA7232F89BD00B3658E /* MeetingViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +53,6 @@
 		A52C2F97232F857E00B3658E /* MeetingModuleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingModuleUITests.swift; sourceTree = "<group>"; };
 		A52C2F99232F857E00B3658E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A52C2FA6232F89BD00B3658E /* MeetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingViewController.swift; sourceTree = "<group>"; };
-		A52C2FA7232F89BD00B3658E /* MeetingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeetingViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +148,6 @@
 			isa = PBXGroup;
 			children = (
 				A52C2FA6232F89BD00B3658E /* MeetingViewController.swift */,
-				A52C2FA7232F89BD00B3658E /* MeetingViewController.xib */,
 			);
 			path = MeetingModule;
 			sourceTree = "<group>";
@@ -270,7 +267,6 @@
 			files = (
 				A52C2F82232F857D00B3658E /* LaunchScreen.storyboard in Resources */,
 				A52C2F7F232F857D00B3658E /* Assets.xcassets in Resources */,
-				A52C2FA9232F89BD00B3658E /* MeetingViewController.xib in Resources */,
 				A52C2F7D232F857B00B3658E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
