@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F524B2CC85E3CD051CBC660 /* libPods-MeetingModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA221A076835281D0292182 /* libPods-MeetingModule.a */; };
 		A52C2F78232F857B00B3658E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52C2F77232F857B00B3658E /* AppDelegate.swift */; };
 		A52C2F7A232F857B00B3658E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52C2F79232F857B00B3658E /* ViewController.swift */; };
 		A52C2F7D232F857B00B3658E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52C2F7B232F857B00B3658E /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		A52C2F82232F857D00B3658E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52C2F80232F857D00B3658E /* LaunchScreen.storyboard */; };
 		A52C2F8D232F857E00B3658E /* MeetingModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52C2F8C232F857E00B3658E /* MeetingModuleTests.swift */; };
 		A52C2F98232F857E00B3658E /* MeetingModuleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52C2F97232F857E00B3658E /* MeetingModuleUITests.swift */; };
+		A52C2FA8232F89BD00B3658E /* MeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52C2FA6232F89BD00B3658E /* MeetingViewController.swift */; };
+		A52C2FA9232F89BD00B3658E /* MeetingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A52C2FA7232F89BD00B3658E /* MeetingViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BA221A076835281D0292182 /* libPods-MeetingModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MeetingModule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB105CBFA5FC9A88B43E59E /* Pods-MeetingModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetingModule.debug.xcconfig"; path = "Target Support Files/Pods-MeetingModule/Pods-MeetingModule.debug.xcconfig"; sourceTree = "<group>"; };
+		5184C2E71D215B4B909A1109 /* Pods-MeetingModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetingModule.release.xcconfig"; path = "Target Support Files/Pods-MeetingModule/Pods-MeetingModule.release.xcconfig"; sourceTree = "<group>"; };
 		A52C2F74232F857B00B3658E /* MeetingModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A52C2F77232F857B00B3658E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A52C2F79232F857B00B3658E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,8 @@
 		A52C2F93232F857E00B3658E /* MeetingModuleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetingModuleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A52C2F97232F857E00B3658E /* MeetingModuleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingModuleUITests.swift; sourceTree = "<group>"; };
 		A52C2F99232F857E00B3658E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A52C2FA6232F89BD00B3658E /* MeetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingViewController.swift; sourceTree = "<group>"; };
+		A52C2FA7232F89BD00B3658E /* MeetingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeetingViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F524B2CC85E3CD051CBC660 /* libPods-MeetingModule.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09FA34FA098A32F8A865991B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BB105CBFA5FC9A88B43E59E /* Pods-MeetingModule.debug.xcconfig */,
+				5184C2E71D215B4B909A1109 /* Pods-MeetingModule.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A52C2F6B232F857B00B3658E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +99,8 @@
 				A52C2F8B232F857E00B3658E /* MeetingModuleTests */,
 				A52C2F96232F857E00B3658E /* MeetingModuleUITests */,
 				A52C2F75232F857B00B3658E /* Products */,
+				09FA34FA098A32F8A865991B /* Pods */,
+				F6104995A6DE59E2ABAA9B67 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +117,7 @@
 		A52C2F76232F857B00B3658E /* MeetingModule */ = {
 			isa = PBXGroup;
 			children = (
+				A52C2FA5232F89AB00B3658E /* MeetingModule */,
 				A52C2F77232F857B00B3658E /* AppDelegate.swift */,
 				A52C2F79232F857B00B3658E /* ViewController.swift */,
 				A52C2F7B232F857B00B3658E /* Main.storyboard */,
@@ -125,6 +146,23 @@
 			path = MeetingModuleUITests;
 			sourceTree = "<group>";
 		};
+		A52C2FA5232F89AB00B3658E /* MeetingModule */ = {
+			isa = PBXGroup;
+			children = (
+				A52C2FA6232F89BD00B3658E /* MeetingViewController.swift */,
+				A52C2FA7232F89BD00B3658E /* MeetingViewController.xib */,
+			);
+			path = MeetingModule;
+			sourceTree = "<group>";
+		};
+		F6104995A6DE59E2ABAA9B67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BA221A076835281D0292182 /* libPods-MeetingModule.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +170,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A52C2F9C232F857E00B3658E /* Build configuration list for PBXNativeTarget "MeetingModule" */;
 			buildPhases = (
+				43D22FD6C6AE752939F332E0 /* [CP] Check Pods Manifest.lock */,
 				A52C2F70232F857B00B3658E /* Sources */,
 				A52C2F71232F857B00B3658E /* Frameworks */,
 				A52C2F72232F857B00B3658E /* Resources */,
@@ -231,6 +270,7 @@
 			files = (
 				A52C2F82232F857D00B3658E /* LaunchScreen.storyboard in Resources */,
 				A52C2F7F232F857D00B3658E /* Assets.xcassets in Resources */,
+				A52C2FA9232F89BD00B3658E /* MeetingViewController.xib in Resources */,
 				A52C2F7D232F857B00B3658E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,11 +291,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		43D22FD6C6AE752939F332E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeetingModule-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A52C2F70232F857B00B3658E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A52C2FA8232F89BD00B3658E /* MeetingViewController.swift in Sources */,
 				A52C2F7A232F857B00B3658E /* ViewController.swift in Sources */,
 				A52C2F78232F857B00B3658E /* AppDelegate.swift in Sources */,
 			);
@@ -430,6 +496,7 @@
 		};
 		A52C2F9D232F857E00B3658E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BB105CBFA5FC9A88B43E59E /* Pods-MeetingModule.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +515,7 @@
 		};
 		A52C2F9E232F857E00B3658E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5184C2E71D215B4B909A1109 /* Pods-MeetingModule.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/ModularizationOrganazition/MeetingModule.git", :tag => s.version }
 
-  s.source_files  = "MeetingModule/MeetingModule/**/*.{h,m}"
+  s.source_files  = "MeetingModule/MeetingModule/*.{h,m,swift,xib}"
 
   s.requires_arc = true
 
